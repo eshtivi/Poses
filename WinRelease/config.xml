@@ -1,0 +1,119 @@
+<config>
+  <facepoints value="49" />
+  <preprocessing enabled="N" />
+  <processing>
+    <!-- if not using preprocessing -->
+    <model file="D:\workshop\3d\female.FBX" lighting="N" hideinterior="N" center="Y" pi_azimuth="0" pi_elevation="0.5" pi_yaw="0" axisx="0" axisy="0" axisz="0" />
+  </processing>
+  <models max="1">
+    <model file="D:\workshop\3d\female.FBX" lighting="N" hideinterior="N" center="Y" pi_azimuth="0" pi_elevation="0.5" pi_yaw="0" axisx="0" axisy="0" axisz="0">		
+		<!-- left eye -->
+		<anim target="head_BFB_038_IU_EYEMid_R_4" point="20" anchor="24" weightx="0" />
+		<anim target="head_BFB_036_IU_EYEMid_R_3" point="20" anchor="24" weightx="0" />
+		<anim target="head_BFB_034_IU_EYEMid_R_2" point="21" anchor="23" weightx="0" />
+
+		<anim target="head_BFB_037_IU_EYE_R_4" point="20" anchor="24" weightx="0" />
+		<anim target="head_BFB_035_IU_EYE_R_3" point="20" anchor="24" weightx="0" />
+		<anim target="head_BFB_033_IU_EYE_R_2" point="21" anchor="23" weightx="0" />
+
+		<!-- right eye -->
+		<anim target="head_BFB_054_IU_EYEMid_L_4" point="27" anchor="29" weightx="0" />
+		<anim target="head_BFB_052_IU_EYEMid_L_3" point="27" anchor="29" weightx="0" />
+		<anim target="head_BFB_050_IU_EYEMid_L_2" point="26" anchor="30" weightx="0" />
+
+		<anim target="head_BFB_053_IU_EYE_L_4" point="27" anchor="29" weightx="0" />
+		<anim target="head_BFB_051_IU_EYE_L_3" point="27" anchor="29" weightx="0" />
+		<anim target="head_BFB_049_IU_EYE_L_2" point="26" anchor="30" weightx="0" />
+
+
+		<!-- eye browses -->
+		<anim target="head_BFB_018_BROW_R_4" point="0" />
+		<anim target="head_BFB_017_BROW_R_3" point="1" />
+		<anim target="head_BFB_016_BROW_R_2" point="3" />
+		<anim target="head_BFB_015_BROW_R_1" point="4" />
+
+		<anim target="head_BFB_022_BROW_L_4" point="9" />
+		<anim target="head_BFB_021_BROW_L_3" point="8" />
+		<anim target="head_BFB_020_BROW_L_2" point="6" />
+		<anim target="head_BFB_019_BROW_L_1" point="5" />
+
+		<!-- side lips -->
+		<anim target="head_BFB_092_LIPLC_R_1" point="31" />
+		<anim target="head_BFB_UNDERNOSE_R_3" point="31" />
+		<anim target="head_BFB_UNDERCHEEK_R_3" point="31" />
+		<anim target="head_BFB_U_CHIN_R_3" point="31" />
+		<anim target="head_BFB_LIPDOWN_R_4" point="31" />
+		<anim target="head_BFB_LIPUP_R_4" point="31" />
+
+		<anim target="head_BFB_093_LIPLC_L_1" point="37" />
+		<anim target="head_BFB_UNDERNOSE_L_3" point="37" />
+		<anim target="head_BFB_UNDERCHEEK_L_3" point="37" />
+		<anim target="head_BFB_U_CHIN_L_3" point="37" />
+		<anim target="head_BFB_LIPDOWN_L_4" point="37" />
+		<anim target="head_BFB_LIPUP_L_4" point="37" />
+
+		<!-- upper lips -->
+		<anim target="head_BFB_131_LIPUP_R_3" point="31" /> <!--32-->
+		<anim target="head_BFB_130_LIPUP_R_2" point="33" />
+		<anim target="head_BFB_129_LIPUP_R_1" point="34" />
+		<anim target="head_BFB_135_LIPUP_SQUASH" point="34" />
+		<anim target="head_BFB_132_LIPUP_L_1" point="34" />
+		<anim target="head_BFB_133_LIPUP_L_2" point="35" />
+		<anim target="head_BFB_134_LIPUP_L_3" point="37" /> <!--36-->
+
+		<!-- upper upper lips -->
+		<anim target="head_BFB_137_UNDERNOSE_R_2" point="32" />
+		<anim target="head_BFB_136_UNDERNOSE_R_1" point="34" />
+		<anim target="head_BFB_138_UNDERNOSE_L_1" point="34" />
+		<anim target="head_BFB_139_UNDERNOSE_L_2" point="36" />
+
+		<!-- lower lips -->
+		<anim target="head_BFB_127_LIPDOWN_L_3" point="37" /> <!--38-->
+		<anim target="head_BFB_126_LIPDOWN_L_2" point="39" />
+		<anim target="head_BFB_125_LIPDOWN_L_1" point="40" />
+		<anim target="head_BFB_128_LIPDOWN_SQUASH" point="40" />
+		<anim target="head_BFB_122_LIPDOWN_R_1" point="40" />
+		<anim target="head_BFB_123_LIPDOWN_R_2" point="41" />
+		<anim target="head_BFB_124_LIPDOWN_R_3" point="32" /> <!--42-->
+
+		<!-- lower lower lips -->
+		<anim target="head_BFB_121_U_CHIN_L_2" point="39" />
+		<anim target="head_BFB_120_U_CHIN_L_1" point="40" />
+		<anim target="head_BFB_118_U_CHIN_R_1" point="40" />
+		<anim target="head_BFB_119_U_CHIN_R_2" point="41" />
+
+		<!-- chin -->
+		<anim target="head_BFB_077_L_CHIN_R_2" point="40" />
+		<anim target="head_BFB_076_L_CHIN_R_1" point="40" />
+		<anim target="head_BFB_081_L_CHIN_L_2" point="40" />
+		<anim target="head_BFB_080_L_CHIN_L_1" point="40" />
+		<anim target="head_BFB_116_LCJ2_R_1" point="40" />
+		<anim target="head_BFB_115_LCJ1_R_1" point="40" />
+		<anim target="head_BFB_117_LCJ2_L_1" point="40" />
+		<anim target="head_BFB_112_JAW_R_2" point="40" />
+		<anim target="head_BFB_111_JAW_R_1" point="40" />
+		<anim target="head_BFB_113_JAW_L_1" point="40" />
+		<anim target="head_BFB_114_JAW_L_2" point="40" />
+		
+		<!-- cheecks -->
+		<anim target="head_BFB_094_LCJ3_R_1" point="31" />
+		<anim target="head_BFB_078_L_CHIN_R_3" point="31" />
+		<anim target="head_BFB_079_L_CHIN_R_4" point="31" />
+		<anim target="head_BFB_084_L_CHEEK_R_1" point="31" />
+		
+		<anim target="head_BFB_095_LCJ3_L_1" point="37" />
+		<anim target="head_BFB_082_L_CHIN_L_3" point="37" />
+		<anim target="head_BFB_086_L_CHEEK_L_1" point="37" />
+		<anim target="head_BFB_083_L_CHIN_L_4" point="37" />
+	</model>
+  </models>
+  <input type="webcam">0</input>
+  <output>
+    <file enabled="N">D:\Videos\PosesOutput.avi</file>
+    <screen enabled="Y" input="Y" renderer="Y" tunnel="Y" resize="1" />
+  </output>
+  <CopyPaste>
+	<input type="webcam">0</input>
+	<input type="file">D:\Videos\PosesInput.mp4</input>
+  </CopyPaste>
+</config>
